@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checklist Formation</title>
+
+    <!-- React et ReactDOM -->
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    
+    <!-- Babel pour JSX -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide-react@0.263.1"></script>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Style personnalisé -->
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+
+    <!-- Notre composant React -->
+    <script type="text/babel">
+        // Import des composants nécessaires depuis lucide-react
+        const { CheckCircle, XCircle, PlusCircle, Trash2, MessageSquare } = lucideReact;
+
+        // Notre composant FormationChecklist
+        const FormationChecklist = () => {
+            // Copier ici le contenu du composant React
+            // Le code du composant sera ajouté ici
+        };
+
+        // Rendu du composant
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<FormationChecklist />);
+    </script>
+</body>
+</html>
